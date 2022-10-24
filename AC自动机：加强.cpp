@@ -2,10 +2,10 @@
 using namespace std;
 const int N=1000010,M=2e5+10;
 int n;
-char s[80][160];
+char s[160][80];
 char t[N];
-int ans[80];
-int tr[M][26],tot,ne[M],Map[80],num;
+int ans[M];
+int tr[M][26],tot,ne[M],Map[160],num;
 int q[M],hh,tt;
 void insert(char * s)
 {
